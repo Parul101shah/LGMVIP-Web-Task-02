@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Calculator.css" rel="stylesheet"/>
+    <title>Scientific Calculator</title>
+</head>
+<body>
+    
+    <div class="calc">
+        <h1 align="center" placeholder="Enter">My Scientific Calculator</h1>
+        <div class="row1">
+            <input class="input" type="text" placeholder="Press buttons and see here....">
+        </div>
+        <div class="row">
+            <button class="button" onclick="clearInput()">AC</button>
+            <button class="button" onclick="appendToInput('.')">.</button>
+            <button class="button" onclick="clearLastEntry()">Delete</button>
+            <button class="button" onclick="calculate()">=</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="appendToInput('1')">1</button>
+            <button class="button" onclick="appendToInput('2')">2</button>
+            <button class="button" onclick="appendToInput('3')">3</button>
+            <button class="button" onclick="appendToInput('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="appendToInput('4')">4</button>
+            <button class="button" onclick="appendToInput('5')">5</button>
+            <button class="button" onclick="appendToInput('6')">6</button>
+            <button class="button" onclick="appendToInput('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="appendToInput('7')">7</button>
+            <button class="button" onclick="appendToInput('8')">8</button>
+            <button class="button" onclick="appendToInput('9')">9</button>
+            <button class="button" onclick="appendToInput('*')">*</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="appendToInput('0')">0</button>
+            <button class="button" onclick="calculateSquareRoot()">√</button>
+            <button class="button" onclick="calculatePower()">x^2</button>
+            <button class="button" onclick="appendToInput('/')">/</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="calculateSin()">sin</button>
+            <button class="button" onclick="calculateCos()">cos</button>
+            <button class="button" onclick="calculateTan()">tan</button>
+            <button class="button" onclick="calculateLog()">log</button>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>
