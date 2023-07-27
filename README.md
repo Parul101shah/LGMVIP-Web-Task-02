@@ -1,4 +1,4 @@
-# LGMVIP-Web-Task-01
+# LGMVIP-Web-Task-02
 LGMVIP Task Number 2 (Calculator)<br>
 📲Calculator Web App<br>
 This is a Scientific Calcultor web app built using HTML, CSS, and JavaScript. It allows users to calculate science, engineering, and mathematics problems.It also has trigonometric functions.<br>
